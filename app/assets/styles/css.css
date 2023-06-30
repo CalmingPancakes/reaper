@@ -1,0 +1,90 @@
+/* Copyright © 2023 allahware. All rights reserved. */
+/* only project besides allahware/catware.xyz allowed to use this is "perception" by allahware member pixel */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;500&family=Montserrat&family=Rubik&display=swap');
+
+@font-face {
+  font-family: "SF Mono";
+  src: url('/fonts/sfmono2.otf') format("opentype");
+}
+
+/*
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Rubik', sans-serif;
+*/
+
+:root {
+  font-family: "SF Mono";
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  background-color: rgb(16, 16, 16);
+  color: rgb(245, 245, 245);
+
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "SF Mono";
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: underline #5f00ff;
+  text-underline-position: auto;
+  text-underline-offset: 3px;
+}
+
+h3 {
+  font-family: "SF Mono";
+  font-size: 20px;
+  font-weight: 300;
+}
+
+a {
+  color: #EDEFFD;
+  text-decoration: none;
+}
+
+p {
+  font-family: "SF Mono";
+  font-size: 18px;
+}
+
+span {
+  font-family: "SF Mono";
+  font-size: 14px;
+}
+
+aside {
+  height: 100vh;
+}
+
+input {
+  color: #f2f4f8;
+  background: transparent;
+
+  font-family: "SF Mono";
+  font-weight: 100;
+  font-size: 10.5pt;
+
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+  border: 1px solid #5f00ff;
+  outline: none;
+
+  padding-right: .4px;
+  margin: 1.5px;
+
+  width: 150px;
+}
